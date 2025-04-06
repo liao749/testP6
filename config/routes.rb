@@ -5,5 +5,5 @@ Rails.application.routes.draw do
     resources :participants
     resources :expenses
   end
-  root "trips#index"
+  root "static_pages#home"
 end
